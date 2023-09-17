@@ -1,0 +1,101 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>LoginController</servlet-name>
+  	<display-name>LoginController</display-name>
+  	<description></description>
+  	<servlet-class>com.BlogSite.LoginController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>registrationServlet</servlet-name>
+  	<display-name>registrationServlet</display-name>
+  	<description></description>
+  	<servlet-class>registrationServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<servlet-name>processBlogservlet</servlet-name>
+  	<display-name>processBlogservlet</display-name>
+  	<description></description>
+  	<servlet-class>processBlogservlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>addblogservlet</servlet-name>
+  	<display-name>addblogservlet</display-name>
+  	<description></description>
+  	<servlet-class>com.BlogSite.addblogservlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Editprofileservlet</servlet-name>
+  	<display-name>Editprofileservlet</display-name>
+  	<description></description>
+  	<servlet-class>com.BlogSite.Editprofileservlet</servlet-class>
+  </servlet>
+ 
+  <servlet>
+  	<servlet-name>editblogservlet</servlet-name>
+  	<display-name>editblogservlet</display-name>
+  	<description></description>
+  	<servlet-class>com.BlogSite.editblogservlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>DeleteBlogServlet</servlet-name>
+  	<display-name>DeleteBlogServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.BlogSite.DeleteBlogServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>feedbackservlet</servlet-name>
+  	<display-name>feedbackservlet</display-name>
+  	<description></description>
+  	<servlet-class>com.BlogSite.feedbackservlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>LoginS</servlet-name>
+  	<display-name>LoginS</display-name>
+  	<description></description>
+  	<servlet-class>LoginS</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>LoginController</servlet-name>
+  	<url-pattern>/Login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>registrationServlet</servlet-name>
+  	<url-pattern>/registration</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>processBlogservlet</servlet-name>
+  	<url-pattern>/processBlog</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>addblogservlet</servlet-name>
+  	<url-pattern>/addblog</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Editprofileservlet</servlet-name>
+  	<url-pattern>/edit</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+  	<servlet-name>editblogservlet</servlet-name>
+  	<url-pattern>/editblogserv</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>DeleteBlogServlet</servlet-name>
+  	<url-pattern>/DeleteBlog</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>feedbackservlet</servlet-name>
+  	<url-pattern>/feedback</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>LoginS</servlet-name>
+  	<url-pattern>/Login1</url-pattern>
+  </servlet-mapping>
+</web-app>

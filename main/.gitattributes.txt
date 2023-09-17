@@ -1,0 +1,4 @@
+*.html -text
+*.jsp -text
+*.js -text
+*.css -text

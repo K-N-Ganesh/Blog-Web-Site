@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&family=Poppins:ital,wght@0,600;1,500&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.title{
+    background-color: rgb(77, 93, 235);
+    width: 100%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: solid;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    width: 100%;
+    height: 100vh;
+}
+
+.card{
+    height: 600px;
+    width: 450px;
+    box-shadow: 0 0 40px 20px rgba(0, 0, 0, 0.15);
+    padding: 10px;
+    perspective: 1000;
+}
+
+.inner-box{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;    
+    transition: transform 2s;
+
+}
+
+.card-front,.card-back{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.388),rgba(0, 0, 0, 0.352)),url('20944201.jpg');
+    box-sizing: border-box;
+    backface-visibility: hidden;
+    
+}
+
+.card-back{ 
+    transform: rotateY(180deg);
+}
+
+.card h2{
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 30px;
+    color:rgb(77, 93, 235);
+    text-transform: uppercase;
+      
+}
+
+.plab{
+    color: #fff;
+    margin-left: 20px;
+}
+
+.input-box{
+
+    width: 80%;
+    background: transparent;
+    border: 4px solid rgb(252, 250, 250) ;
+    margin: 6px 0 0 40px;
+    height: 45px;
+    border-radius: 20px;
+    padding: 15px 10px;
+    box-sizing: border-box;
+    outline: none;
+    text-align: center;
+    color: #fff;
+
+    
+}
+
+::placeholder{
+    color: rgba(248, 246, 246, 0.838);
+}
+
+.sub-btn{
+    width: 50%;
+    background-color: rgb(77, 93, 235) ;
+    
+    border: none;
+    margin: 35px 0 10px 100px;
+    height: 50px;
+    font-size: 18px;
+    border-radius: 20px;
+    color:rgb(253, 253, 254);
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: ease all 1s;
+
+}
+
+.sub-btn:hover{
+    border: none;
+    
+}
+
+
+#cheked{
+    margin-left: 30px;
+    
+}
+span{
+    font-size: 13px;
+    margin-left: 10px;
+    color: rgb(255, 255, 255);
+}
+
+.btn{
+    text-transform:uppercase ;
+    background-color: rgb(77, 93, 235) ;    
+    /* background: transparent; */
+    width: 50%;
+    border:none;
+    margin: 35px 0 10px 100px;
+    height: 45px;
+    font-size: 18px;
+    border-radius: 20px;
+    color:rgb(253, 253, 254);
+    
+    cursor: pointer;
+}
+
+.btn:hover{
+    border: none;
+    
+    background-color: rgb(77, 93, 235) ; 
+    /* background: transparent; */
+}
+
+.card a{
+    text-decoration: none;
+    color: rgb(249, 247, 247);
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 15px;
+}
+
